@@ -1,0 +1,75 @@
+/* Regla 1 selector universal*/
+* {
+    
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-family: serif;
+}
+
+/* Regla 2*/
+body {
+    padding: 20%;
+    margin: 0;
+   
+}
+
+/* Regla 3*/
+h1 {
+    color: darkcyan;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Regla 4*/
+.selector {
+    color: lightcyan;       
+    border-radius: 5px;
+    padding: 5%;
+    border: solid darkcyan 1px; /* Regla 5*/
+}
+
+/* Regla 6 */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/* Regla 7*/
+h2.selector, h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* Regla 8*/
+span {
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    
+}
+
+/* Regla 9*/
+li > a {
+    text-decoration: none; 
+}
+
+/* Regla 10*/
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    border-radius: 5px;
+    padding: 0.5px;
+    
+}
+
+/* Regla 11*/
+#gallery div {
+    width: 100%;
+}
+
+/* Regla 12 */
+img {
+    width: 100%;
+    border-radius: 5px;
+    border: solid darkcyan 1px;
+}
